@@ -47,8 +47,31 @@ table {
 	border-spacing: 0;
 }
 
+nav li {
+	float:left;
+}
 
-h1 {
+section {
+	clear:both;
+}
+
+article {
+	float:left;
+	width:40%;
+}
+
+nav {
+	border-top:2px solid black;
+	padding-top:48px;
+	border-bottom:2px solid black;
+	height:50px;
+}
+
+header {
+	padding-top:48px;
+	padding-bottom:48px;
+}
+h2 {
 	font-family:georgia;
 	font-size:20px;
 	font-style:bold;

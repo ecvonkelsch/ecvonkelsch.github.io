@@ -50,3 +50,55 @@ table {
 	border-spacing: 0;
 }
 
+
+title {
+	font-size: 20px;
+	
+}
+	
+	
+	#main-menu {
+		float:left;
+		padding:15px;
+		font-family:helvetica;
+		font-transform:uppercase;
+		font-size:12px;
+		
+}
+
+li {
+	margin:10px;
+	float:left;
+}
+
+#page {
+	clear:both;
+	margin:20px;
+	
+}
+
+h1 {
+	padding:15px;
+	font-family:helvetica;
+	text-transform:uppercase;
+	font-size:20px;
+	color:brown;
+}
+
+h2 {
+	padding:10px;
+	font-family:helvetica;
+	font-size:10px;
+	}
+	
+	p {
+	padding:15px;
+	font-family:helvetica;
+	font-size:9px;
+	width:45%;	
+	}
+	
+	#top-nav {
+		position:absolute;
+		
+	}
