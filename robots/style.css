@@ -50,55 +50,42 @@ table {
 	border-spacing: 0;
 }
 
+/*---------------END RESET------------*/
 
-title {
-	font-size: 20px;
-	
+#top-nav {
+	position:absolute;
+	top:30px;
+	right:30px;
+}	
+
+#site-wrapper {
+	background-color:#eff5da;
+	position:relative;
+}	
+
+#site-header {
+	margin: 0 auto;
+	width:800px;
 }
+#menu-wrapper {
+	background-color:#774918;	
+	}
 	
+	#main-menu li {
+		float:left;	
+		padding:10px;
+		font-family:helvetica;
+		font-size:15px;
+		text-transform:uppercase;	
+	}
+	
+	#main-menu a {
+		text-decoration:none;
+			color:white;
+	}
 	
 	#main-menu {
-		float:left;
-		padding:15px;
-		font-family:helvetica;
-		font-transform:uppercase;
-		font-size:12px;
-		
-}
-
-li {
-	margin:10px;
-	float:left;
-}
-
-#page {
-	clear:both;
-	margin:20px;
-	
-}
-
-h1 {
-	padding:15px;
-	font-family:helvetica;
-	text-transform:uppercase;
-	font-size:20px;
-	color:brown;
-}
-
-h2 {
-	padding:10px;
-	font-family:helvetica;
-	font-size:10px;
-	}
-	
-	p {
-	padding:15px;
-	font-family:helvetica;
-	font-size:9px;
-	width:45%;	
-	}
-	
-	#top-nav {
-		position:absolute;
-		
+		height:40px;
+		width:800px;
+		margin: 0 auto;
 	}
