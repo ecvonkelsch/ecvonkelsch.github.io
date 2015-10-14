@@ -89,3 +89,35 @@ table {
 		width:800px;
 		margin: 0 auto;
 	}
+	
+	h1 {
+		color:#774918;
+		font-family:helvetica;
+		font-size:25px;
+		text-transform:uppercase;
+		margin:10px;	
+	}
+	
+	#page {
+		float:left;
+		width:45%;
+		margin-left:200px;
+		
+	}
+	
+	#sidebar {
+		float:right;
+		width:35%;
+		:none;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
