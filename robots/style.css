@@ -73,7 +73,7 @@ table {
 	
 	#main-menu li {
 		float:left;	
-		padding:10px;
+		padding:10px 10px 10px 0px;
 		font-family:helvetica;
 		font-size:15px;
 		text-transform:uppercase;	
@@ -93,22 +93,70 @@ table {
 	h1 {
 		color:#774918;
 		font-family:helvetica;
-		font-size:25px;
+		font-size:20px;
 		text-transform:uppercase;
-		margin:10px;	
+		margin:40px 10px 10px 0px;
+			
+	}
+	
+	h2 {
+		color:#774918;
+		font-family:helvetica;
+		font-size:15px;
+		text-transform:uppercase;
+		margin:40px 10px 10px 0px;
 	}
 	
 	#page {
 		float:left;
 		width:45%;
-		margin-left:200px;
+		font-family:helvetica;
+		font-size:9pt;
+		line-height:11pt;
 		
 	}
 	
 	#sidebar {
 		float:right;
 		width:35%;
-		:none;
+
+		
+	}
+	
+	#sidebar a {
+		text-decoration:none;
+		color:#774918;
+		font-family:helvetica;
+		font-size:9pt;
+		line-height:20pt;
+		
+	}
+	
+	#content-wrapper {
+		margin: 0 auto;
+		width:800px;
+	}
+	
+	#footer-wrapper {
+		clear:both;
+		background-color:#774918;
+	height:100px;
+	width:100%;
+}
+
+#footer-contact {
+	float:left;
+	width:50%;
+}
+	
+	#footer-follow {
+		float:right;
+		width:50%;
+	}
+	
+	#site-footer {
+		margin: 0 auto;
+		
 	}
 	
 	
