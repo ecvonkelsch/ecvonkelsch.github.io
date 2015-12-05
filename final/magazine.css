@@ -267,5 +267,39 @@ img { width: 100%;
 	
 } 
 
+/* current issue page */
+
+.popularfeatures article{
+	width:100%;
+	
+	
+}
+
+#strandbeestsfeature {
+	width:30%;
+	float:left;
+	margin:1%;
+}
+
+#materialworldfeature{
+	width:30%;
+	float:left;
+	margin:1%;
+}
+
+#selfassemblyfeature{
+	width:30%;
+	float:left;
+	margin:1%;
+}
+
+.videotext {
+	clear:both;
+}
+
+
+
+
+
 
 
