@@ -107,14 +107,26 @@ table {
 }
 
 #header p{
-	font-family:'zxx', sans-serif;
-	font-weight:bold;
+	font-family:'zxxsans', sans-serif;
 	color:white;
 	font-size:4em;
 	display:inline-block;
-	margin-top:100px;
+	margin-top:90px;
 }
 
+a:link {
+    text-decoration: none;
+	color: none;
+}
+
+a:hover {
+    text-decoration: underline;
+	color:#00bff3;
+}
+
+a:active {
+    text-decoration: underline;
+}
 
 
 #mainmenu {
@@ -144,7 +156,7 @@ h2 {
 	font-weight:bold;
 	text-transform:uppercase;
 	font-size:1.5em;
-	margin-bottom:35px;
+	margin-bottom:15px;
 	margin-top:20px;
 	margin-left:5%;
 	padding:5px;
@@ -186,17 +198,23 @@ h4{
    width: 100%; /* for IE 6 */
 }
 
+.populararticle h3{
+	color:white;
+	padding:20px;
+	
+}
+
 .populararticle p{
 	font-family: 'zxxsans', sans-serif;
 	font-size:1em;
 	padding-left:20px; 
     width: 60%; 
-	
+	color:white;
+	line-height:20px;
 	
 }
 
 .populararticle { 		
-	background-color:yellow;
 		height:500px;
 		width:75%;
 		float:left;
@@ -211,31 +229,51 @@ h4{
 }
 .newsfeed {
 	float:left;
-	width:30%;
-	margin:2%;
-	background-color:pink;
-	
-}
-	
-}
-
-#newsitem {
+	width:20%;
+	padding:10px 10px 10px 20px;
+	margin:20px;
+	border:2px solid #b5b5b5;
 	
 }
 
-/*.newvideos {
+.newsfeed h2{
+	width:80%;
+	padding-bottom:20px;
+	border-bottom:2px solid #b5b5b5;
+	
+}
+
+.newsitem {
+	padding:30px 10px 100px 10px;
 	clear:both;
-	margin:300px;*/
+	border-bottom:2px solid #b5b5b5;
+	border-width:120%;
 }
 
+.newsitem img{
+	clear:both;
+	float:left;
+	width:35%;
+	padding-right:10px;
+	
+}
+
+.newsitem p{
+	float:left;
+	width:60%;
+	font-family:'Titillium Web', sans-serif;
+	font-size:0.8em;
+	line-height:18px;
+	
+}
+
+	
 
 #strandbeests {
 	background-image: url("Images/theo_opener_fullbleed.jpg");
 	   background-repeat: no-repeat;
 	width:100%;
 	height:300px;
-	
-
 }
 
 img { width: 100%;
@@ -259,7 +297,30 @@ img { width: 100%;
 }
 
 
-/* form */
+.newvideos {
+	clear:both;}
+
+
+/* form page*/
+	#subscribegraphic {
+		background-image: url("Images/potentialcoverbarcodelightened.jpg");
+	   background-repeat: no-repeat;
+	width:75%;
+	height:400px;
+	margin:0 auto;}
+	
+	
+	#formgraphictext {
+		font-family:'zxxsans', sans-serif;
+		text-transform:uppercase;
+		font-size:4em;
+		color:#64dd17;
+		text-align: center;
+		display: block;
+		    margin-left: auto;
+		    margin-right: auto;
+		padding-top:10%; }
+	}
 
 .form li{
 	padding:5px;
@@ -275,27 +336,98 @@ img { width: 100%;
 	
 }
 
+.popularfeatures p{
+	font-family: 'zxxsans', sans-serif;
+	font-size:1em;
+	padding-left:20px; 
+    width: 80%; 
+	color:white;
+	line-height:20px;
+}
+
+.popularfeatures h3{
+	padding:30px;
+	color:white;
+}
+
+
 #strandbeestsfeature {
+	background-image: url("Images/strandbeestcurrent.jpg");
+	background-position: bottom 200px;
+	   background-repeat: no-repeat;
 	width:30%;
+	height:500px;
 	float:left;
 	margin:1%;
 }
 
 #materialworldfeature{
+	background-image: url("Images/oxmancurrent.jpg");
+	   background-repeat: no-repeat;
 	width:30%;
+	height:500px;
 	float:left;
 	margin:1%;
 }
 
 #selfassemblyfeature{
+	background-image: url("Images/leviathancurrent.jpg");
+	   background-repeat: no-repeat;
 	width:30%;
+	height:500px;
 	float:left;
 	margin:1%;
 }
 
+
+
+
 .videotext {
 	clear:both;
+	padding-top:30px;
 }
+
+.videotext p{
+	font-family: 'zxxsans', sans-serif;
+	font-size:1em;
+	padding-left:20px; 
+    width: 90%; 
+	line-height:20px;
+}
+
+.currenttitlevideo img{
+	float:left;
+	width:62%;
+	margin:1%;
+	background-color:red;
+}
+
+.videotext p{
+	float:left;
+	width:25%;
+	padding:20px;
+	height:70px;
+}
+
+
+.currentarticle {
+	clear:both;
+	padding-top:30px;
+}
+
+#fromreaders {
+	float:left;
+	width:45%;
+	padding:15px;
+}
+
+#moreabout {
+	float:left;
+	width:45%;
+	padding:15px;
+	
+}
+
 
 
 
