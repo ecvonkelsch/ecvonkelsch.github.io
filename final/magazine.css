@@ -215,7 +215,7 @@ h4{
 }
 
 .populararticle { 		
-		height:500px;
+		height:auto;
 		width:75%;
 		float:left;
 		width:70%;
@@ -230,7 +230,6 @@ h4{
 .newsfeed {
 	float:left;
 	width:20%;
-	padding:10px 10px 10px 20px;
 	margin:20px;
 	border:2px solid #b5b5b5;
 	
@@ -244,7 +243,7 @@ h4{
 }
 
 .newsitem {
-	padding:30px 10px 100px 10px;
+	padding:30px 10px 100px 20px;
 	clear:both;
 	border-bottom:2px solid #b5b5b5;
 	border-width:120%;
@@ -270,8 +269,9 @@ h4{
 	
 
 #strandbeests {
-	background-image: url("Images/theo_opener_fullbleed.jpg");
-	   background-repeat: no-repeat;
+	background-image: url("Images/theo.jpg");
+	background-repeat: no-repeat;
+	background-position: bottom center;
 	width:100%;
 	height:300px;
 }
@@ -296,15 +296,58 @@ img { width: 100%;
 	
 }
 
+/* front videos*/
 
 .newvideos {
-	clear:both;}
+	clear:both;
+	margin-left:70px;
+	padding-top:40px;
+	}
+	
+	.newvideos h2{
+	    font-size: 1.5em;
+	    margin-bottom: 15px;
+	    margin-top: 20px;
+	    margin-left: 5%;
+	}
+	
+	.newvideos h3{
+		padding:20px 20px 20px 0px;
+		color:white;
+		font-size:2em;
+		
+	}
 
+	.newvideos section{
+		padding:20px;
+	}
+
+#juvenoia {
+	background-image: url("Images/juvenoiavideo.jpg");
+	background-repeat: no-repeat;
+	width:100%;
+	height:500px;
+}
+
+#geckovidfrontpage {
+	background-image: url("Images/GECKOVID.jpg");
+	background-repeat: no-repeat;
+	width:100%;
+	height:500px;
+}
+
+#canyons {
+	background-image: url("Images/canyonsvideo.jpg");
+	background-repeat: no-repeat;
+	width:100%;
+	height:500px;
+}
 
 /* form page*/
 	#subscribegraphic {
 		background-image: url("Images/potentialcoverbarcodelightened.jpg");
 	   background-repeat: no-repeat;
+	   background-position: top left;
 	width:75%;
 	height:400px;
 	margin:0 auto;}
@@ -321,19 +364,41 @@ img { width: 100%;
 		    margin-right: auto;
 		padding-top:10%; }
 	}
+	
+#price p{
+		font-family:'zxxsans', sans-serif;
+		font-size:4em;
+		color:#64dd17;
+	}
+
 
 .form li{
-	padding:5px;
-	background-color:gray;
+	padding:10px;
+	padding-left:70px;
+	
 	
 } 
+
+.form label{
+	height:150%;
+	width:150%;
+	
+}
+
+#subscribebutton {
+	font-family:'zxxsans', sans-serif;
+	text-transform:uppercase;
+	font-size:4em;
+	color:#64dd17;
+	text-align: center;
+	border:solid 2px #64dd17;
+	
+}
 
 /* current issue page */
 
 .popularfeatures article{
 	width:100%;
-	
-	
 }
 
 .popularfeatures p{
@@ -425,6 +490,40 @@ img { width: 100%;
 	float:left;
 	width:45%;
 	padding:15px;
+	
+}
+
+
+/*strandbeest feature*/
+
+.mainstradbeest img {
+	width:75%;
+	display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+		padding:40px;
+}
+
+.mainstradbeest h5{
+	font-family:'zxx', sans-serif;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-size:3em;
+	width:30%;
+	display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	
+}
+
+.mainstradbeest p{
+	font-family: 'Titillium Web', sans-serif;
+	font-size:1em;
+	line-height:25px;
+	width:40%;
+	display: block;
+	    margin-left: auto;
+	    margin-right: auto;
 	
 }
 
