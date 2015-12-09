@@ -89,7 +89,6 @@ table {
 
 
 
-
 #header img{
 	width:100%;
 } 
@@ -103,8 +102,23 @@ table {
 	    ),
 	    url(Images/nerioxman_rapidcraft_editlarger.jpg) top center no-repeat;
 		height:170px;
+		/*position: fixed;*/
+		z-index: 100;
+		width: 100%;
 	
 }
+
+#header a:visited{
+	color:white;
+	text-decoration:none;
+}
+
+#header a:hover{
+	color:white;
+	text-decoration:none;
+}
+
+
 
 #header p{
 	font-family:'zxxsans', sans-serif;
@@ -363,12 +377,17 @@ img { width: 100%;
 		    margin-left: auto;
 		    margin-right: auto;
 		padding-top:10%; }
-	}
+
 	
-#price p{
+#price {
 		font-family:'zxxsans', sans-serif;
-		font-size:4em;
-		color:#64dd17;
+		font-size:2em;
+		padding-top:20px;
+		text-align: center;
+		display: block;
+		    margin-left: auto;
+		    margin-right: auto;
+			color:#64dd17;
 	}
 
 
@@ -388,11 +407,13 @@ img { width: 100%;
 #subscribebutton {
 	font-family:'zxxsans', sans-serif;
 	text-transform:uppercase;
-	font-size:4em;
+	font-size:2em;
 	color:#64dd17;
 	text-align: center;
-	border:solid 2px #64dd17;
-	
+	border:solid 4px #64dd17;
+	border-radius: 15px;
+	padding:10px;
+	margin:200px;
 }
 
 /* current issue page */
@@ -496,6 +517,15 @@ img { width: 100%;
 
 /*strandbeest feature*/
 
+.mainstradbeest h2{
+	padding-top:30px;
+	padding-left:80px;
+}
+
+.mainstradbeest h3{
+	padding-left:145px;
+}
+
 .mainstradbeest img {
 	width:75%;
 	display: block;
@@ -510,10 +540,13 @@ img { width: 100%;
 	text-transform:uppercase;
 	font-size:3em;
 	width:30%;
+	text-align:center;
 	display: block;
 	    margin-left: auto;
 	    margin-right: auto;
-	
+		margin-top:40px;
+		margin-bottom:40px;
+		color:#7ecbf2;
 }
 
 .mainstradbeest p{
@@ -525,6 +558,45 @@ img { width: 100%;
 	    margin-left: auto;
 	    margin-right: auto;
 	
+}
+
+.bottomarticlesection{
+	display:block;
+}
+
+.bottomarticlesection h3{
+		padding:20px;
+		color:white;
+		font-size:1em;
+	}
+
+#bottomarticlejuvenoia {
+	background-image: url("Images/juvenoiavideo.jpg");
+	background-repeat: no-repeat;
+	margin:1%;
+	width:25%;
+	height:200px;
+	float:left;
+	
+}
+
+#bottomarticlematerialworld {
+	background-image: url("Images/oxman1.jpg");
+	background-repeat: no-repeat;
+	margin:1%;
+	width:25%;
+	height:200px;
+	float:left;
+	
+}
+
+#bottomarticlecanyon {
+	background-image: url("Images/canyonsvideo.jpg");
+	background-repeat: no-repeat;
+	margin:1%;
+	width:25%;
+	height:200px;
+	float:left;
 }
 
 
